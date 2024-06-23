@@ -1,0 +1,19 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/667770af7e794647f7f59728
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Kady",
+    "subscribedToChannel": "WDS"
+}
+
+###
+
+DELETE  http://localhost:3000/subscribers/66776a4a4f224bb35f0760dc
